@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-LABEL maintainer="Peng Xiao <xiaoquwl@gmail.com>"
+LABEL maintainer="chenchaohan<chenchaohan@live.com>"
 
 RUN apk update && apk upgrade && \
     apk add --no-cache net-snmp-tools && \
